@@ -1,14 +1,8 @@
-/*
- * ElementoInt.cpp
- *
- *  Created on: 28/4/2015
- *      Author: ruben.jimenez
- */
 
 #include "stdafx.h"
 
 ElementoInt::ElementoInt(int i) :
-		i(i) {
+i(i) {
 }
 
 ElementoInt::~ElementoInt() {

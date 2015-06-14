@@ -1,9 +1,3 @@
-/*
- * ElementoPersona.h
- *
- *  Created on: May 8, 2015
- *      Author: a00203
- */
 
 #ifndef ELEMENTOPERSONA_H_
 #define ELEMENTOPERSONA_H_

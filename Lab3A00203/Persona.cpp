@@ -1,9 +1,4 @@
-/*
- * Persona.cpp
- *
- *  Created on: May 8, 2015
- *      Author: a00203
- */
+
 
 #include "stdafx.h"
 
@@ -21,11 +16,11 @@ void Persona::setID(int id){
 }
 
 void Persona::setNombre(string name){
-nombre = name;
+	nombre = name;
 }
 
 int Persona::getID(){
-return ID;
+	return ID;
 }
 
 ostream& operator <<(ostream& out, const Persona& p) {

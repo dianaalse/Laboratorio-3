@@ -7,15 +7,7 @@
 
 
 #include "stdafx.h"
-#include <iostream>
-#include <time.h>
-#include <string>
-#include "ArbolBinario.h"
-#include "Elemento.h"
-#include "ElementoInt.h"
-#include "ElementoDou.h"
-#include "ElementoPersona.h"
-#include "Persona.h"
+
 
 
 using namespace std;
@@ -34,25 +26,27 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	ArbolBinario b;
 
 	for (int i = 0; i < 10; ++i) {
-			b.insertarElemento(new ElementoDou((rand() % 100)/5.222));
-		}
+		b.insertarElemento(new ElementoDou((rand() % 100) / 5.222));
+	}
 
 	cout << "El segundo arbol" << endl << b << endl;
 
 	ArbolBinario c;
 	int cant = 5;
 	int id = 0;
+	string arrayNom[4] = { "Andres", "Marco", "Luis", "Miguel" };
 	Persona** pe;
 	pe = new Persona*[cant];
 	for (int i = 0; i < cant; ++i) {
-		pe[i] = new Persona(id++,"Andres");
+		int RandIndex = rand() % 4;
+		pe[i] = new Persona(id++, arrayNom[RandIndex]);
 		c.insertarElemento(new ElementoPersona(pe[i]));
 	}
 
 
 
 	cout << "El tercer arbol" << endl << c << endl;
-
+	system("pause");
 	return 0;
 }
 

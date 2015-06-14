@@ -1,9 +1,4 @@
-/*
- * Elemento.h
- *
- *  Created on: 28/4/2015
- *      Author: ruben.jimenez
- */
+
 
 #ifndef ELEMENTO_H_
 #define ELEMENTO_H_
@@ -18,7 +13,7 @@ class Elemento {
 
 protected:
 	Elemento();
-	Elemento * hIzq, * hDer;
+	Elemento * hIzq, *hDer;
 
 public:
 	virtual ~Elemento();

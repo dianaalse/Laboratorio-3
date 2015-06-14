@@ -1,16 +1,10 @@
-/*
- * ElementoDou.cpp
- *
- *  Created on: May 8, 2015
- *      Author: a00203
- */
 
 #include "stdafx.h"
 
 
 
 ElementoDou::ElementoDou(double i) :
-		i(i) {
+i(i) {
 }
 
 ElementoDou::~ElementoDou() {

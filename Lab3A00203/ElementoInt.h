@@ -1,9 +1,4 @@
-/*
- * ElementoInt.h
- *
- *  Created on: 28/4/2015
- *      Author: ruben.jimenez
- */
+
 
 #ifndef ELEMENTOINT_H_
 #define ELEMENTOINT_H_

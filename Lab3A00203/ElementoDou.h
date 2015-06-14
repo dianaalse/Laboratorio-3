@@ -1,9 +1,3 @@
-/*
- * ElementoDou.h
- *
- *  Created on: May 8, 2015
- *      Author: a00203
- */
 
 #ifndef ELEMENTODOU_H_
 #define ELEMENTODOU_H_

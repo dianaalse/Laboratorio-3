@@ -1,9 +1,4 @@
-/*
- * Persona.h
- *
- *  Created on: May 8, 2015
- *      Author: a00203
- */
+
 
 #ifndef PERSONA_H_
 #define PERSONA_H_

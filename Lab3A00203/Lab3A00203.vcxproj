@@ -84,7 +84,6 @@
     <ClInclude Include="ElementoDou.h" />
     <ClInclude Include="ElementoInt.h" />
     <ClInclude Include="ElementoPersona.h" />
-    <ClInclude Include="Lista.h" />
     <ClInclude Include="Persona.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -95,7 +94,6 @@
     <ClCompile Include="ElementoDou.cpp" />
     <ClCompile Include="ElementoInt.cpp" />
     <ClCompile Include="ElementoPersona.cpp" />
-    <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="stdafx.cpp">

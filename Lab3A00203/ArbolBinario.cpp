@@ -1,9 +1,4 @@
-/*
- * ArbolBinario.cpp
- *
- *  Created on: 5/5/2015
- *      Author: ruben.jimenez
- */
+
 
 #include "stdafx.h"
 
@@ -20,23 +15,27 @@ ArbolBinario::~ArbolBinario() {
 void ArbolBinario::insertarElemento(Elemento * elemento) {
 	if (raiz == NULL) {
 		raiz = elemento;
-	} else {
+	}
+	else {
 		insertarElementoRec(raiz, elemento);
 	}
 }
 
 void ArbolBinario::insertarElementoRec(Elemento * nodoActual,
-		Elemento * elemento) {
+	Elemento * elemento) {
 	if (*nodoActual < *elemento) {
 		if (nodoActual->hIzq != NULL) {
 			insertarElementoRec(nodoActual->hIzq, elemento);
-		} else {
+		}
+		else {
 			nodoActual->hIzq = elemento;
 		}
-	} else {
+	}
+	else {
 		if (nodoActual->hDer != NULL) {
 			insertarElementoRec(nodoActual->hDer, elemento);
-		} else {
+		}
+		else {
 			nodoActual->hDer = elemento;
 		}
 	}
@@ -49,14 +48,14 @@ ostream & operator<<(ostream & out, ArbolBinario & a) {
 }
 
 void ArbolBinario::imprimir(Elemento* nodo, ostream& out, int profundidad) {
-	if(nodo->hIzq != NULL) {
+	if (nodo->hIzq != NULL) {
 		imprimir(nodo->hIzq, out, profundidad + 1);
 	}
 	for (int i = 0; i < profundidad; ++i) {
 		cout << "\t";
 	}
 	out << *nodo << endl;
-	if(nodo->hDer != NULL) {
+	if (nodo->hDer != NULL) {
 		imprimir(nodo->hDer, out, profundidad + 1);
 	}
 }

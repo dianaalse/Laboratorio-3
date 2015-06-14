@@ -1,16 +1,9 @@
-/*
- * ArbolBinario.h
- *
- *  Created on: 5/5/2015
- *      Author: ruben.jimenez
- */
 
 #ifndef ARBOLBINARIO_H_
 #define ARBOLBINARIO_H_
 
-#include "Elemento.h"
-#include <iostream>
-using namespace std;
+
+#include "ELemento.h"
 
 class ArbolBinario {
 
